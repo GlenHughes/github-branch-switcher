@@ -1,7 +1,7 @@
 function clickHandler(){
     var paths = window.location.pathname.split('/'),
         branches = paths[paths.length-1].split('...'),
-        defaultBranch = 'dev_trunk',
+        defaultBranch = 'master', //- @todo Read this from the page
         newPath;
 
     delete paths[paths.length - 1];
