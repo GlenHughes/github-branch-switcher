@@ -1,0 +1,11 @@
+{
+  "name": "github-branch-switcher",
+  "version": "1.0.0",
+  "description": "This extension adds switch branches functionality to GitHub's branch comparison page.",
+  "author": "Glen Hughes <glen.866@gmail.com>",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^2.1.2"
+  }
+}
