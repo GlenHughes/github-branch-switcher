@@ -1,10 +1,9 @@
 function clickHandler(){
     var paths = window.location.pathname.split('/'),
-        branches = paths[paths.length-1].split('...'),
+        branches = paths.pop().split('...'),
         defaultBranch = 'master', //- @todo Read this from the page
         newPath;
 
-    delete paths[paths.length - 1];
     newPath = paths.join('/') + (branches[1] || defaultBranch) + '...' + branches[0];
     window.location.pathname = newPath
 
