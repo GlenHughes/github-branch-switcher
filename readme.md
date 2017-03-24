@@ -8,6 +8,6 @@ It annoys me so much, I took the time to write this Chrome Extension to add that
 
 ## Installation
 
-https://chrome.google.com/webstore/category/extensions
+https://chrome.google.com/webstore/detail/github-compare-branch-swi/fjlmkbgkecelphjcapljnhiebbcbimjh
 
 Standard extension installation steps. The extension will only kick in when viewing the GitHub website.
