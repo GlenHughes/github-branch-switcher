@@ -1,10 +1,12 @@
-var gulp = require('gulp'),
-	uglify = require("gulp-uglify"),
-	concat = require('gulp-concat');
+const gulp = require("gulp")
+const rename = require("gulp-rename")
+const	uglify = require("gulp-uglify-es").default
 
-gulp.task('js', function() {   
-	gulp.src('src/js/script.js')
-	.pipe(concat('extension.min.js'))
+gulp.task("js", () => (  
+	gulp.src("src/*.js")
+		.pipe(rename("extension.min.js"))
     .pipe(uglify())
-    .pipe(gulp.dest(''));
-});
+		.pipe(gulp.dest("dist/"))
+))
+
+gulp.task("default", gulp.parallel("js"))

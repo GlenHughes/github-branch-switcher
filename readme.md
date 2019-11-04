@@ -6,6 +6,20 @@ It annoys me so much, I took the time to write this Chrome Extension to add that
 
 ![Fig1](https://glenhughes.me/projects/github-branch-switcher/screen1.jpg)
 
+## Dev Setup
+
+Project uses Gulp to minify source file to extension.min.js and Yarn to manage packages. To install:
+
+```bash
+yarn
+```
+
+To compile:
+
+```bash
+yarn build
+```
+
 ## Installation
 
 https://chrome.google.com/webstore/detail/github-compare-branch-swi/fjlmkbgkecelphjcapljnhiebbcbimjh

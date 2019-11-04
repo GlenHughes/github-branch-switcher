@@ -1,11 +1,9 @@
 {
   "manifest_version": 2,
-
   "name": "GitHub - Compare Branch Switcher",
   "description": "This extension adds switch branches functionality to GitHub's branch comparison page.",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "author": "Glen Hughes",
-
   "page_action": {
     "default_icon": "github-branch-switcher-icon.png",
     "default_title": "GitHub Branch Switcher"
@@ -20,7 +18,7 @@
         "*://github.com/*"
       ],
       "js": [
-        "extension.min.js"
+        "dist/extension.min.js"
       ]
     }
    ]
