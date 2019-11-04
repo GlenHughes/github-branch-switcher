@@ -1,8 +1,10 @@
 # GitHub Branch Compare Page Branch Switcher
 
-This is a simple Chrome Extension that I wrote. The purpose of this extension is to improve the UX of the GitHub.com branch comparison page. Have you ever compared a branch o GitHub and wondered why doesn't this icon (see fig1) actually switch the branches that I am comparing?!!
+This is a simple Chrome Extension that I wrote. The purpose of this extension is to improve the UX of the GitHub.com branch comparison page. Have you ever compared a branch on GitHub and wondered why doesn't this icon (see fig1) actually switch the branches that I am comparing?!!
 
 It annoys me so much, I took the time to write this Chrome Extension to add that functionality.
+
+> Please don't take this code seriously! This is just for fun and learning :)
 
 ![Fig1](https://glenhughes.me/projects/github-branch-switcher/screen1.jpg)
 
